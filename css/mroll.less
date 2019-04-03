@@ -1,0 +1,81 @@
+@import '../lesshelp/lesshelp.less';
+
+.container-fluid{
+    width: 100%;
+    height: 400/@r;
+    background: #333;
+}
+
+.threesixty {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }
+
+  .threesixty .threesixty_images {
+    display: none;
+    list-style: none;
+    height: 100%;
+  }
+
+  .threesixty .threesixty_images img {
+    position: absolute;
+    // top: 50%;
+    // left: 50%;
+    width: 100%;
+    height: auto;
+    bottom: -30/@r;
+    // transform: translate(-50%, -50%);
+  }
+
+
+
+
+  .threesixty .threesixty_images img.previous-image {
+    visibility: hidden;
+    width: 0;
+  }
+  .threesixty .threesixty_images img.current-image {
+    visibility: visible;
+    width: 100%;
+  }
+  .threesixty .spinner {
+    width: 60/@r;
+    display: block;
+    margin: 0 auto;
+    height: 30/@r;
+    background: #333;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-border-radius: 5/@r;
+    -moz-border-radius: 5/@r;
+    border-radius: 5/@r;
+  }
+
+  .threesixty .nav_bar {
+    position: absolute;
+    bottom: 20/@r;
+    right: 20/@r;
+    z-index: 11;
+  }
+  .threesixty .nav_bar a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    background: url(../img/sprites.png) no-repeat;
+    text-indent: -99999px;
+  }
+  .threesixty .nav_bar a.nav_bar_play {
+    background-position: 0 0 !important;
+  }
+  .threesixty .nav_bar a.nav_bar_previous {
+    background-position: 0 -73px !important;
+  }
+  .threesixty .nav_bar a.nav_bar_stop {
+    background-position: 0 -37px !important;
+  }
+  .threesixty .nav_bar a.nav_bar_next {
+    background-position: 0 -104px !important;
+  }

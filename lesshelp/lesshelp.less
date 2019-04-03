@@ -1,0 +1,33 @@
+@r: 75rem;
+@d: 37.5rem;
+// @imgurl: 'http://image.bitautoimg.com/taoche';
+// @devimgurl: '../../img';
+
+
+.fz(@fontsize: 14px, @important: 0) {
+    & when (@important=1) {
+
+        [data-dpr="1"] & {
+            font-size: @fontsize !important;
+        }
+        [data-dpr="2"] & {
+            font-size: @fontsize*2 !important;
+        }
+        [data-dpr="3"] & {
+            font-size: @fontsize*3 !important;
+        }
+    }
+
+    & when (@important=0) {
+        [data-dpr="1"] & {
+            font-size: @fontsize;
+        }
+        [data-dpr="2"] & {
+            font-size: @fontsize*2;
+        }
+        [data-dpr="3"] & {
+            font-size: @fontsize*3;
+        }
+    }
+}
+

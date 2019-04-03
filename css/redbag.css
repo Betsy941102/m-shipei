@@ -1,0 +1,197 @@
+.redbg-fix {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 25;
+  background: #5b0e04;
+}
+.red-start {
+  width: 60%;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  text-align: center;
+  background: yellow;
+  position: absolute;
+  bottom: 0.53333333rem;
+  left: 20%;
+}
+[data-dpr="1"] .red-start {
+  font-size: 18px;
+}
+[data-dpr="2"] .red-start {
+  font-size: 36px;
+}
+[data-dpr="3"] .red-start {
+  font-size: 54px;
+}
+.red-text {
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+[data-dpr="1"] .red-text {
+  font-size: 36px;
+}
+[data-dpr="2"] .red-text {
+  font-size: 72px;
+}
+[data-dpr="3"] .red-text {
+  font-size: 108px;
+}
+.redOne {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.red-box {
+  width: 100%;
+  height: 100%;
+}
+.couten {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.couten li {
+  position: absolute;
+  animation: all 3s linear;
+  top: -100px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 30px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+  background: url(../img/waterbg.png) no-repeat;
+  background-size: 100%;
+}
+.couten li a {
+  display: block;
+}
+.mo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  display: none;
+}
+.mo .sen {
+  width: 70%;
+  height: 150px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mo .sen img {
+  width: 60%;
+  height: 127px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 212px;
+  margin: auto;
+  vertical-align: top;
+}
+.mo .sen h3 {
+  width: 50%;
+  height: 30px;
+  position: absolute;
+  top: -35px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color: red;
+  font-size: 140%;
+  font-weight: bold;
+  z-index: 999;
+}
+.mo .sen a {
+  width: 26%;
+  height: 50px;
+  background-color: #aedef4;
+  box-shadow: rgba(174, 222, 244, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.0470588) 0px 0px 0px 1px inset;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+}
+.backward {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.backward span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: #000;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1000%;
+}
+.tong {
+  width: 100%;
+  height: 25%;
+  background: #5b0e04;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.tongbox {
+  width: 20%;
+  height: 80%;
+  border: #fff solid 1px;
+  margin: 0 auto;
+  color: yellow;
+  text-align: center;
+  position: relative;
+}
+[data-dpr="1"] .tongbox {
+  font-size: 32px;
+}
+[data-dpr="2"] .tongbox {
+  font-size: 64px;
+}
+[data-dpr="3"] .tongbox {
+  font-size: 96px;
+}
+.tongbox i {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  left: 0%;
+  top: 40%;
+  display: inline-block;
+}
